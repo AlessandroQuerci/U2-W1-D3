@@ -1,0 +1,86 @@
+body {
+  margin-inline: 2rem;
+  margin-block: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+header button {
+  background-color: #ffdf7f;
+  border-radius: 64px;
+  font-weight: 550;
+  color: #732104;
+}
+
+.containerBtn {
+  padding: 2rem;
+  background-color: #fef7e2;
+  border-radius: 85px;
+}
+
+.downBtn button {
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin-block: 1rem;
+}
+
+.buttonsFirstTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonsSecondTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonsFirstTwo button {
+  width: 160px;
+}
+.buttonsSecondTwo button {
+  width: 160px;
+}
+
+#shopBtn img {
+  width: 20%;
+}
+
+#shopBtn {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.9rem;
+  font-size: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 112%;
+  color: #732104;
+}
+
+.cards img {
+  width: 100%;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
+}
+.cards {
+  border-radius: 55px;
+  background-color: #fef7e2;
+}
+
+section img {
+  width: 100%;
+}
