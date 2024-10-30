@@ -1,6 +1,6 @@
 body {
   margin-inline: 2rem;
-  margin-block: 3rem;
+  margin-top: 3rem;
 }
 
 header {
@@ -15,6 +15,7 @@ header button {
   border-radius: 64px;
   font-weight: 550;
   color: #732104;
+  border: 0;
 }
 
 .containerBtn {
@@ -79,8 +80,73 @@ h1 {
 .cards {
   border-radius: 55px;
   background-color: #fef7e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1.5rem;
+}
+
+.cards button {
+  background-color: #ffdf7f;
+  border-radius: 64px;
+  font-weight: 550;
+  color: #732104;
+  width: 54%;
+  margin: 1rem;
+  border: 0;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  color: #6e1b05;
+  margin-top: 1rem;
+}
+.cardText span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.cardText p {
+  text-align: center;
+}
+#number {
+  font-size: 1.2rem;
+  vertical-align: bottom;
 }
 
 section img {
   width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.9rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 112%;
+  color: #732104;
+}
+
+h3 {
+  margin: 0;
+  text-align: left;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 112%;
+  color: #732104;
+}
+
+.sectionContainer {
+  background-color: #fef7e2;
+  padding: 1.2rem;
+  border-radius: 28px;
+}
+.sectionContainer p {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: #732104;
 }
